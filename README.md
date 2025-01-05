@@ -1,45 +1,87 @@
-# Healthcare_Spending_Analysis
-Analysis of healthcare spending trends and insights using SQL and Power BI.
+# Healthcare Spending Analysis
+Comprehensive analysis of global healthcare spending trends, insights into country-specific contributions, and regional disparities using SQL and Power BI.
+
+---
 
 ## Overview
-This project analyzes global healthcare spending trends, comparing country-specific expenditures and deriving actionable insights using SQL and Power BI.
+This project examines healthcare spending patterns globally using historical data. Through SQL for data extraction and Power BI for data visualization, we reveal:
+- Spending trends over time.
+- Country-wise and per capita contributions to healthcare expenses.
+- Regional variations and data completeness.
+
+---
 
 ## Objectives
-- Analyze historical trends in healthcare spending above the average.
-- Compare total and per capita healthcare expenditures across countries.
-- Visualize data to highlight patterns and disparities.
+- Understand historical trends in healthcare spending above the average.
+- Compare total and per capita healthcare expenditures across countries and regions.
+- Highlight insights into data patterns and disparities using effective visualizations.
+
+---
 
 ## Tools & Techniques
-- **SQL**: Data extraction and transformation.
-- **Power BI**: Data visualization and storytelling.
+- **SQL**: For extracting and cleaning data.
+- **Power BI**: For interactive dashboards and storytelling.
+- **Datasets**: Historical healthcare spending data for multiple countries.
 
-## Project Files
-- **SQL Queries**: [healthdataquerry.sql](sql/healthdataquerry.sql)
-- **Datasets**: [CSV files](data/)
-- **Power BI Dashboards**: [Healthcare Spending Dashboard](dashboards/)
-- **Visualizations**: [Screenshots](visualizations/)
+---
 
 ## Key Insights
-1. **Global Trends**: Healthcare spending significantly increased between 1970 and 2010.
-2. **Country Contributions**: The USA contributes over 34% of global healthcare expenditures.
-3. **Regional Disparities**: High per capita spending is concentrated in developed regions.
-4. **Data Coverage**: Some countries have incomplete data, requiring careful analysis.
+1. **Global Trends**:
+   - Significant growth in healthcare spending between 1970 and 2010.
+   - A noticeable decline after 2010.
+2. **Country Contributions**:
+   - The USA accounts for the largest share of global healthcare spending (34%).
+3. **Regional Disparities**:
+   - Developed countries show high per capita spending, highlighting regional disparities.
+4. **Data Completeness**:
+   - Some countries have incomplete data, which poses challenges for long-term analysis.
+
+---
+
+## Project Files
+- **SQL Queries**:
+  - [`healthdataquerry.sql`](sql/healthdataquerry.sql): Extracts and transforms data for analysis.
+- **Datasets**:
+  - [CSV Files](data/): Includes cleaned and processed healthcare data.
+- **Power BI Dashboards**:
+  - [`Healthcare Spending Dashboard`](dashboards/Healthcare_Spending.pbix): Interactive dashboards for exploring the data.
+- **Visualizations**:
+  - [Screenshots Folder](visualizations/): Includes static images of key visualizations.
+
+---
 
 ## Visualizations
-1. **Line Chart**: Total spending above average (1970-2015).
-   ![Line Chart](visualizations/picture6linechart.jpg)
-2. **Pie Chart**: Country contributions to total healthcare spending.
-   ![Pie Chart](visualizations/picture5piechart.jpg)
-3. **Map**: Per capita healthcare spending by region.
-   ![Map](visualizations/picture3.jpg)
+
+### 1. **Line Chart**: Total Spending Above Average (1970–2015)
+Illustrates the growth in healthcare spending above the average over the years.
+![Line Chart](visualizations/picture6linechart.jpg)
+
+### 2. **Pie Chart**: Country Contributions to Total Healthcare Spending
+Shows the proportional contributions of countries to global healthcare expenses.
+![Pie Chart](visualizations/picture5piechart.jpg)
+
+### 3. **Map Visualization**: Per Capita Healthcare Spending by Region
+Highlights the geographic distribution of healthcare spending.
+![Map Visualization](visualizations/picture3.jpg)
+
+### 4. **Table**: Data Coverage by Country
+Displays the first and last years of available healthcare spending data for each country.
+![Data Table](visualizations/picture4table.jpg)
+
+### 5. **Bar and Line Charts**:
+#### - Number of Reporting Countries Over Time
+Tracks the growth in the number of countries contributing data.
+#### - Average Spending Per Year
+Highlights the average spending trends over the years.
+![Bar and Line Charts](visualizations/picture1.jpg)
+
+---
 
 ## Interactive Dashboards
-- Explore the interactive Power BI dashboard [here](#).
+Explore the interactive Power BI dashboard for deeper insights:
+- [Healthcare Spending Dashboard](#)
 
-## Skills Demonstrated
-- SQL for data extraction and cleaning.
-- Power BI for creating dashboards and storytelling.
-- Data visualization and trend analysis.
+---
 
 ## How to Run
 1. Clone the repository: `git clone https://github.com/AfshinBahrampour/Healthcare_Spending_Analysis.git`

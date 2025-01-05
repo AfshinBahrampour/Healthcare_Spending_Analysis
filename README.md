@@ -1,6 +1,5 @@
 # Healthcare_Spending_Analysis
 Analysis of healthcare spending trends and insights using SQL and Power BI.
-# Healthcare Spending Analysis
 
 ## Overview
 This project analyzes global healthcare spending trends, comparing country-specific expenditures and deriving actionable insights using SQL and Power BI.

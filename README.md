@@ -43,11 +43,11 @@ This project analyzes global healthcare spending trends, comparing country-speci
 - Data visualization and trend analysis.
 
 ## How to Run
-1. Clone the repository: `git clone https://github.com/your-username/Healthcare_Spending_Analysis.git`
+1. Clone the repository: `git clone https://github.com/AfshinBahrampour/Healthcare_Spending_Analysis.git`
 2. Open the `.pbix` files in Power BI Desktop.
 3. Run the SQL queries in any SQL environment.
 
 ## Contact
 For questions or collaboration opportunities, feel free to reach out:
-- **Email**: your-email@example.com
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)
+- **Email**: bahrampour_afshin@yahoo.com
+- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/afshin-bahrampour/)
